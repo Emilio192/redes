@@ -1,0 +1,47 @@
+.fondo{
+    height:100vh;
+    width: 100vw;
+    background: linear-gradient(217deg, #06283D, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, #256D85, rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, #47B5FF, rgba(0,0,255,0) 70.71%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    /* box-shadow: 10px 10px 10px black; */
+    filter:drop-shadow(8px 8px 10px black);
+    position: relative;
+    
+}
+
+@media(max-width:1075px) {
+    img{
+        height: 350px;
+    }
+}
+
+@media(max-width:858px) {
+    img{
+        height: 350px;
+    }
+}
+
+/* @media(max-width:768px) {
+    img{
+        height: 400px;
+    }
+} */
+
+@media(max-width:425px) {
+    img{
+        height: 300px;
+    }
+}
+
+@media(max-width:320px) {
+    img{
+        height: 250px;
+    }
+}

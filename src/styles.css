@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Patua One';
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* 
+::-webkit-scrollbar {
+    margin: 0;
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: red;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(217deg, #7DCE13, rgba(255,0,0,0) 70.71%),
+linear-gradient(127deg, #5BB318, rgba(0,255,0,0) 70.71%),
+linear-gradient(336deg, #256D85, rgba(0,0,255,0) 70.71%);
+} */
